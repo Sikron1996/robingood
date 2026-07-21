@@ -24,3 +24,12 @@ a{color:inherit;text-decoration:none}button{font:inherit}.site-header{position:s
 footer{padding:32px 42px;display:flex;align-items:center;justify-content:space-between;gap:20px}.footer-brand{display:flex;align-items:center;gap:12px;font-family:"Syncopate";font-weight:700}.footer-links{display:flex;gap:20px;font-size:11px}footer small{color:#7f897a;font-size:10px}
 @media(max-width:1150px){.desktop-nav{display:none}.hero{grid-template-columns:1fr 1fr}.mint-panel{grid-column:1/-1;max-width:760px;width:100%;justify-self:center}}
 @media(max-width:760px){.site-header{height:72px}.brand{padding:0 14px}.brand-text{font-size:13px}.header-actions{padding:0 10px}.icon-btn{display:none}.wallet-btn{height:46px;padding:0 14px;font-size:11px}.hero{grid-template-columns:1fr;padding:32px 16px}.hero-copy,.art-column,.mint-panel{grid-column:1}h1{font-size:58px}.stats-grid,.token-grid,.steps{grid-template-columns:1fr}.section{padding:72px 16px}.contract-list>div{grid-template-columns:1fr;gap:12px}.collection-card{flex-direction:column;align-items:flex-start}.collection-stats{width:100%;flex-direction:column}.collection-stats span{width:100%}footer{flex-direction:column;align-items:flex-start;padding:28px 16px}}
+
+.active-nav{color:var(--lime)!important;background:rgba(185,255,22,.045)}
+.route-page{position:relative;z-index:1;min-height:100vh}
+.route-hero{padding:82px 42px 35px;border-bottom:1px solid var(--line)}
+.route-hero h1{margin-bottom:20px}
+.route-content{padding:70px 42px 110px}
+.route-intro{max-width:760px;color:#b8c1b3;line-height:1.8;margin-bottom:42px}
+.route-cta{display:inline-block;margin-top:28px;background:var(--lime);color:#061000;padding:15px 20px;font-weight:700;font-size:11px}
+@media(max-width:760px){.route-hero,.route-content{padding-left:16px;padding-right:16px}}

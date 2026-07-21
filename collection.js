@@ -131,7 +131,7 @@
 
     const img = card.querySelector("img");
     img.onerror = () => {
-      img.src = "./assets/robin-good-hero.jpeg";
+      img.src = "/assets/robin-good-hero.jpeg";
     };
 
     return card;
@@ -197,7 +197,7 @@
           console.warn(`Failed to load token ${tokenId}`, err);
           return createCard(tokenId, {
             name: `Robin Good #${tokenId}`,
-            image: "./assets/robin-good-hero.jpeg",
+            image: "/assets/robin-good-hero.jpeg",
             attributes: []
           });
         }

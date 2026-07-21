@@ -31,3 +31,11 @@ For each owned NFT it shows:
 - Blockscout button
 
 OpenSea and Blockscout item URL templates can be changed in `config.js`.
+
+
+Clean routes:
+- /
+- /tokenomics
+- /earn
+- /docs
+- /collection

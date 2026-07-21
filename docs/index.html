@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#070907">
+<title>Docs — Robin Good</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css"></head><body>
+<div class="noise"></div><div class="scanline"></div><div class="cursor-glow" id="cursorGlow"></div>
+<header class="site-header">
+<a class="brand" href="/"><span class="brand-mark">R</span><span class="brand-text">ROBIN <b>GOOD</b></span></a>
+<nav class="desktop-nav"><a href="/tokenomics/">Tokenomics</a><a href="/earn/">Earn</a><a class="active-nav" href="/docs/">Docs</a><a href="/collection/">My Collection</a></nav>
+<div class="header-actions"><a class="icon-btn" id="xLink" target="_blank">𝕏</a><button class="wallet-btn" id="connectBtn"><span>CONNECT WALLET</span><span>→</span></button></div>
+</header>
+<main class="route-page"><section class="route-hero"><div class="eyebrow">03 / CONTRACTS</div><h1>BUILT<br><em>ONCHAIN.</em></h1></section><section class="route-content"><p class="route-intro">Official Robin Good contracts deployed on Robinhood Chain.</p>
+<div class="contract-list"><div><span>NFT CONTRACT</span><code>0x0049Bf8b64114fD28c75E6C77deDaD40aD3CbE9a</code><button data-copy="0x0049Bf8b64114fD28c75E6C77deDaD40aD3CbE9a">COPY</button></div><div><span>GOOD TOKEN</span><code>0xc9c05bF105346379f201b41100d166f76a4F0E94</code><button data-copy="0xc9c05bF105346379f201b41100d166f76a4F0E94">COPY</button></div></div><a class="route-cta" href="/#mint">OPEN MINT →</a></section></main>
+<footer><div class="footer-brand"><span class="brand-mark">R</span> ROBIN GOOD</div>
+<div class="footer-links"><a id="openSeaLink" target="_blank">OPENSEA</a><a id="explorerLink" target="_blank">BLOCKSCOUT</a><a id="tokenExplorerLink" target="_blank">GOOD TOKEN</a></div>
+<small>© 2026 ROBIN GOOD.</small></footer>
+<script src="/config.js"></script><script src="https://cdn.jsdelivr.net/npm/ethers@6.13.5/dist/ethers.umd.min.js"></script><script src="/route.js"></script><script>document.querySelectorAll("[data-copy]").forEach(b=>b.onclick=async()=>{await navigator.clipboard.writeText(b.dataset.copy);const o=b.textContent;b.textContent="COPIED";setTimeout(()=>b.textContent=o,1200)});</script>
+</body></html>

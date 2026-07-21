@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070907">
+<title>My Collection — Robin Good</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/collection.css">
+</head>
+<body>
+<div class="noise"></div><div class="scanline"></div><div class="cursor-glow" id="cursorGlow"></div>
+
+<header class="site-header">
+<a class="brand" href="/"><span class="brand-mark">R</span><span class="brand-text">ROBIN <b>GOOD</b></span></a>
+<nav class="desktop-nav"><a href="/tokenomics/">Tokenomics</a><a href="/earn/">Earn</a><a href="/docs/">Docs</a><a class="active-nav" href="/collection/">My Collection</a></nav>
+<div class="header-actions"><a class="icon-btn" id="xLink" target="_blank">𝕏</a><button class="wallet-btn" id="connectBtn"><span>CONNECT WALLET</span><span>→</span></button></div>
+</header>
+
+<main class="collection-page">
+<section class="collection-hero">
+<div>
+<div class="eyebrow">ROBIN GOOD <span>•</span> WALLET GALLERY</div>
+<h1>MY<br><em>COLLECTION</em></h1>
+<p>Connect your wallet to load every Robin Good NFT you own, including metadata and traits.</p>
+</div>
+<div class="wallet-overview">
+<div><small>WALLET</small><strong id="walletAddress">Not connected</strong></div>
+<div><small>ROBIN GOOD NFTS</small><strong id="walletNftCount">0</strong></div>
+<div><small>GOOD BALANCE</small><strong id="walletGoodBalance">0</strong></div>
+</div>
+</section>
+
+<section class="gallery-section">
+<div class="gallery-toolbar">
+<div>
+<span class="section-kicker">YOUR ASSETS</span>
+<h2>ROBIN GOOD GALLERY</h2>
+</div>
+<div class="gallery-actions">
+<button class="secondary-btn" id="refreshBtn">REFRESH</button>
+<a class="mint-link" href="/#mint">MINT MORE →</a>
+</div>
+</div>
+
+<div class="collection-status" id="collectionStatus">
+Connect your wallet to view your NFTs.
+</div>
+
+<div class="nft-grid" id="nftGrid"></div>
+
+<div class="empty-state hidden" id="emptyState">
+<div class="empty-mark">R</div>
+<h3>YOU DON'T OWN ANY ROBIN GOOD YET.</h3>
+<p>Mint your first Robin Good and receive 1,000 GOOD automatically.</p>
+<a href="/#mint">MINT YOUR FIRST ROBIN GOOD →</a>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="footer-brand"><span class="brand-mark">R</span> ROBIN GOOD</div>
+<div class="footer-links">
+<a id="openSeaLink" target="_blank">OPENSEA</a>
+<a id="explorerLink" target="_blank">BLOCKSCOUT</a>
+<a href="/">MINT</a>
+</div>
+<small>© 2026 ROBIN GOOD.</small>
+</footer>
+
+<script src="/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.13.5/dist/ethers.umd.min.js"></script>
+<script src="/collection.js"></script>
+</body>
+</html>
