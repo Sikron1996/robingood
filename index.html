@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070907">
+<title>Robin Good — Mint Live</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="noise"></div><div class="scanline"></div><div class="cursor-glow" id="cursorGlow"></div>
+<header class="site-header">
+<a class="brand" href="#top"><span class="brand-mark">R</span><span class="brand-text">ROBIN <b>GOOD</b></span></a>
+<nav class="desktop-nav"><a href="#tokenomics">Tokenomics</a><a href="#earn">Earn</a><a href="#docs">Docs</a><a href="./collection.html">My Collection</a></nav>
+<div class="header-actions"><a class="icon-btn" id="xLink" target="_blank">𝕏</a><button class="wallet-btn" id="connectBtn"><span>CONNECT WALLET</span><span>→</span></button></div>
+</header>
+<main id="top">
+<section class="hero">
+<div class="hero-copy">
+<div class="eyebrow">10,000 <span>•</span> ROBINHOOD CHAIN <span>•</span> INSTANT REVEAL</div>
+<h1>ROBIN<br><em>GOOD</em></h1><div class="title-rule"><span>✦</span></div>
+<p class="hero-description">Mint one Robin Good and receive <strong>1,000 GOOD</strong> automatically in the same transaction.</p>
+<div class="feature-stack">
+<div class="feature-card"><div class="feature-icon">◆</div><div><b>ROBINHOOD CHAIN</b><small>Fast mint. Low fees.</small></div></div>
+<div class="feature-card"><div class="feature-icon">&lt;/&gt;</div><div><b>IPFS METADATA</b><small>Instantly visible after mint.</small></div></div>
+<div class="feature-card"><div class="feature-icon">✓</div><div><b>ATOMIC REWARD</b><small>NFT + GOOD in one transaction.</small></div></div>
+</div></div>
+<div class="art-column"><div class="art-frame"><img src="./assets/robin-good-hero.jpeg" alt="Robin Good NFT"><div class="art-overlay"></div><div class="laser-tag">GOOD MODE</div><div class="art-footer"><span>⚡ INSTANT REVEAL</span><span>1,000 GOOD / NFT</span></div></div></div>
+<div class="mint-panel" id="mint">
+<div class="panel-top"><h2>PUBLIC MINT</h2><span class="live"><i></i> MAINNET LIVE</span></div>
+<div class="progress-shell"><div class="progress-fill" id="progressFill"></div></div>
+<div class="progress-meta"><span><b id="mintedCount">—</b> / 10,000 minted</span><span id="mintPercent">—%</span></div>
+<div class="stats-grid">
+<div class="stat-card"><small>PRICE</small><strong>0.00009 ETH</strong><span>Per NFT</span></div>
+<div class="stat-card"><small>REWARD</small><strong>1,000 GOOD / NFT</strong><span>Sent automatically</span></div>
+<div class="stat-card"><small>YOUR NFTS</small><strong id="nftBalance">0</strong><span>Wallet balance</span></div>
+<div class="stat-card"><small>YOUR GOOD</small><strong id="goodBalance">0</strong><span>Reward balance</span></div>
+</div>
+<div class="quantity-row"><button id="minusBtn">−</button><span id="quantity">1</span><button id="plusBtn">+</button><div class="reward-preview"><small>YOU RECEIVE</small><b><span id="rewardAmount">1,000</span> GOOD</b></div></div>
+<button class="mint-btn" id="mintBtn"><span id="mintBtnText">CONNECT WALLET TO MINT</span><span>→</span></button>
+<p class="mint-note">No wallet limit. Mint up to 10 NFTs per transaction and repeat until sold out. Every NFT sends 1,000 GOOD to the minting wallet.</p>
+<div class="status-box" id="statusBox">Connect your wallet to begin.</div>
+</div>
+</section>
+<section class="ticker"><span>ROBIN GOOD</span><i>✦</i><span>1 NFT = 1,000 GOOD</span><i>✦</i><span>ROBINHOOD CHAIN</span><i>✦</i><span>INSTANT REVEAL</span><i>✦</i><span>NO WALLET LIMIT</span></section>
+<section class="section" id="tokenomics"><div class="section-heading"><span>01 / TOKENOMICS</span><h2>ONE COLLECTION.<br><em>ONE ECONOMY.</em></h2></div>
+<div class="token-grid"><article><span class="metric">10,000</span><h3>NFT SUPPLY</h3><p>Fixed maximum supply of Robin Good NFTs.</p></article><article><span class="metric">10M</span><h3>GOOD SUPPLY</h3><p>Every token is reserved for NFT mint rewards.</p></article><article><span class="metric">1:1000</span><h3>REWARD RATIO</h3><p>Each NFT instantly mints 1,000 GOOD.</p></article><article><span class="metric">1 TX</span><h3>ATOMIC MINT</h3><p>NFT and GOOD arrive in one transaction.</p></article></div></section>
+<section class="section" id="earn"><div class="section-heading"><span>02 / EARN</span><h2>MINT. RECEIVE.<br><em>HOLD GOOD.</em></h2></div>
+<div class="steps"><article><b>01</b><h3>CONNECT</h3><p>Connect a wallet supporting Robinhood Chain.</p></article><article><b>02</b><h3>MINT</h3><p>Select 1–10 NFTs and confirm.</p></article><article><b>03</b><h3>RECEIVE</h3><p>Get the NFT and 1,000 GOOD per NFT.</p></article></div></section>
+<section class="section" id="docs"><div class="section-heading"><span>03 / CONTRACTS</span><h2>BUILT<br><em>ONCHAIN.</em></h2></div>
+<div class="contract-list"><div><span>NFT CONTRACT</span><code>0x0049Bf8b64114fD28c75E6C77deDaD40aD3CbE9a</code><button data-copy="0x0049Bf8b64114fD28c75E6C77deDaD40aD3CbE9a">COPY</button></div><div><span>GOOD TOKEN</span><code>0xc9c05bF105346379f201b41100d166f76a4F0E94</code><button data-copy="0xc9c05bF105346379f201b41100d166f76a4F0E94">COPY</button></div></div></section>
+</main>
+<footer><div class="footer-brand"><span class="brand-mark">R</span> ROBIN GOOD</div><div class="footer-links"><a id="openSeaLink" target="_blank">OPENSEA</a><a id="explorerLink" target="_blank">BLOCKSCOUT</a><a id="tokenExplorerLink" target="_blank">GOOD TOKEN</a></div><small>© 2026 ROBIN GOOD.</small></footer>
+<script src="./config.js"></script><script src="https://cdn.jsdelivr.net/npm/ethers@6.13.5/dist/ethers.umd.min.js"></script><script src="./app.js"></script>
+</body></html>
